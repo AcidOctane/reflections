@@ -1,22 +1,29 @@
-What happens when you initialize a repository? Why do you need to do it?
+1.Q. What happens when you initialize a repository? Why do you need to do it?
 
-When you initialize repository you create a starting point for version control system with on aim to control all changes within a project.
+A. When you initialize repository you create a starting point for version control system with on aim to control all changes within a project.
 
-How is the staging area different from the working directory and the repository?
+2.Q. How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-Staging is the medium point between working directory and repository. You can put changed several files to staging and commit them together later. 
+A. Staging is the medium point between working directory and repository. You can put changed several files to staging and commit them together later. 
 
-How can you use the staging area to make sure you have one commit per logical
+3.Q. How can you use the staging area to make sure you have one commit per logical
 change?
+A. You can add logicaly related changes to stage to commit them together.
 
-What are some situations when branches would be helpful in keeping your history
+
+4.Q.What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+A. Branches can be helpful in the situation when you need to have another version of the project without changing anything in the initial version. 
 
-How do the diagrams help you visualize the branch structure?
+5.Q. How do the diagrams help you visualize the branch structure?
+A. It is easier to understand the structure of the project using diagrams. Also it helps to find unreacheble commits and fix that by creating new branch or just ignore it.s
 
-What is the result of merging two branches together? Why do we represent it in
+6.Q. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+A. The result is that you have both branches up-to-date with all general features you are using in master branch.  
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
+7.Q. What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+A.Pros: it os easier to merge automatically
+Cons: It can't resolve conflicts by itself.
