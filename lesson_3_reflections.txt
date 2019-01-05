@@ -5,3 +5,7 @@ A. When you work with a team or use different computers to make chamges in the p
 2.Q. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 A. Pulling changes manually makes you sure that you are using to most updated version of the project. 
+
+3.Q. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A. Fork is a way to use a copy of someone else's project with a possibility to have all needed updates from original repo. Clone is just a copy of a repository disconnected from the origin. Branch - is a way to make different versions of your project.
