@@ -9,3 +9,14 @@ A. Pulling changes manually makes you sure that you are using to most updated ve
 3.Q. Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 A. Fork is a way to use a copy of someone else's project with a possibility to have all needed updates from original repo. Clone is just a copy of a repository disconnected from the origin. Branch - is a way to make different versions of your project.
+
+4.Q. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A. It will be easier then to figure out what commits have to be merged.
+
+5.Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A. The way to collaborate without git or github is to use cloud based storage like Google Drive.
+
+6.Q. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A. In situation when you are working on a specific chenge which will influence prroject's logic you would use a separate branch.
